@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"os"
+	"piscine"
+)
 
-func main(){
-	fmt.Print("hello worlds\n")
+func main() {
+	args := os.Args[1:]
+
+	arr := []string{}
+	for _, arg := range args {
+		arr = append(arr, piscine.r)
+	}
 }
